@@ -1,5 +1,5 @@
 #pragma once
-#include <Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/VertexBuffer.hpp>
 #include <SFML/Window/Event.hpp>
 #include <queue>

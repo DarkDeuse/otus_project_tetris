@@ -37,5 +37,7 @@ elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
      )
 endif()
 
+target_link_libraries(Tetris PRIVATE sfml-graphics)
+
 target_compile_features(Tetris PUBLIC cxx_std_17)
 
